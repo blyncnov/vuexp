@@ -3,6 +3,7 @@
     <div class="constrain">
       <div class="hero__text">
         <h1>Smart Home</h1>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           commodi sapiente, autem dignissimos excepturi impedit culpa dolores,
@@ -48,11 +49,13 @@ export default {
   text-align: center;
   color: white;
   padding: 2em 0;
+  line-height: 1.5;
 }
 
 .hero__section--container h1 {
   font-size: 4rem;
   font-weight: 900;
+  margin: 0.2em;
 }
 
 .hero__section--container p {
