@@ -68,6 +68,7 @@ export default {
   align-items: center;
   gap: 2em;
   margin-top: 3em;
+  margin-bottom: -30%;
 }
 
 .hero__img img {
@@ -77,8 +78,16 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .hero__img {
+    margin-bottom: -30%;
+  }
+
+  .hero__section--container h1 {
+    font-size: 2.5rem;
+  }
+
   .hero__section--container p {
-    font-size: 1rem;
+    font-size: 13px;
     font-weight: 400;
     max-width: 100%;
     margin: 0 auto;

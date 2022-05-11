@@ -30,8 +30,8 @@
 
       <div class="navbar--icon">
         <div @click="toggleNavbar">
-          <h1 v-if="toggle">☰</h1>
-          <h1 v-else>✕</h1>
+          <h1 class="icon_hambuger" v-if="toggle">☰</h1>
+          <h1 class="icon_hambuger" v-else>✕</h1>
         </div>
       </div>
     </div>
@@ -121,6 +121,10 @@ li:active {
 .navbar--icon {
   display: none;
   cursor: pointer;
+}
+
+.navbar--icon div .icon_hambuger {
+  color: #ffffff;
 }
 
 @media (max-width: 1000px) {
