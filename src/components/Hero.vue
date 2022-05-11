@@ -2,7 +2,7 @@
   <div class="hero__section--container">
     <div class="constrain">
       <div class="hero__text">
-        <h1>Smart Home</h1>
+        <h1>Smart Home Applicaton</h1>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
@@ -60,7 +60,7 @@ export default {
 
 .hero__section--container p {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 60%;
   margin: 0 auto;
 }
@@ -91,7 +91,7 @@ export default {
 
   .hero__section--container p {
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 100%;
     margin: 0 auto;
   }
