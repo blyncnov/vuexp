@@ -1,8 +1,11 @@
 <template>
   <Navbar logo="Vuexp." />
-  <div class="showcase">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg=" Blyncnov Welcome you to Vue 3 " />
+
+  <div class="constrain">
+    <div class="showcase">
+      <img alt="Vue logo" src="./assets/logo.png" />
+      <HelloWorld msg=" Blyncnov Welcome you to Vue 3 " />
+    </div>
   </div>
 </template>
 
@@ -26,6 +29,13 @@ export default {
   list-style-type: none;
   box-sizing: border-box;
 }
+
+.constrain {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .showcase {
   margin: 1em 0;
   padding: 0 0.5em;

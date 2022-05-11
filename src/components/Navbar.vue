@@ -60,7 +60,6 @@ export default {
   background-color: #fff;
   display: flex;
   align-items: center;
-  padding: 0 1em;
   box-shadow: rgba(187, 191, 194, 0.2) 0px 8px 24px;
 }
 
