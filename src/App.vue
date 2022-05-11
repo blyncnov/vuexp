@@ -1,22 +1,18 @@
 <template>
-  <Navbar logo="Vuexp." />
-
-  <div class="constrain">
-    <div class="showcase">
-      <img alt="Vue logo" src="./assets/logo.png" />
-      <HelloWorld msg=" Blyncnov Welcome you to Vue 3 " />
-    </div>
+  <div class="header">
+    <Navbar logo="Vuexp." />
+    <HeroSection />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeroSection from "./components/Hero.vue";
 import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    HeroSection,
     Navbar,
   },
 };
@@ -30,21 +26,27 @@ export default {
   box-sizing: border-box;
 }
 
+.header {
+  width: 100%;
+  height: 90vh;
+  background-color: #1d5af9;
+}
+
 .constrain {
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
 }
 
-.showcase {
-  margin: 1em 0;
-  padding: 0 0.5em;
-}
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 70vh;
+  }
 }
 </style>
